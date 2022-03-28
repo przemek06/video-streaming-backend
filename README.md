@@ -22,10 +22,11 @@ Main technologies used in this project:
 
 ## Features
 Main application featues:
-* Authenticate with username and password
-* Upload videos and store them with Firebase Storage safely and reliably
-* Upload images to represent uploaded videos
-* Get signed URLs enabling You to watch uploaded videos and retrieve photos
+* User can authenticate with username and password
+* User can upload videos
+* Application stores all successfully uploaded videos in Firebase Storage with all required metadata
+* Users can upload images to represent their videos - only if they own them
+* Users can get signed URLs enabling them to watch uploaded videos and retrieve photos
 
 To do:
 * User registration
